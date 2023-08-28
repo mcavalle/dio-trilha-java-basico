@@ -53,6 +53,11 @@ public class Operadores {
         System.out.println(resultado);
 
         //Operadores relacionais
+        String nomeUm = "GLEYSON";
+        String nomeDois = new String("GLEYSON");
+
+        System.out.println(nomeUm.equals(nomeDois));
+
         int n1 = 1;
         int n2 = 2;
 
